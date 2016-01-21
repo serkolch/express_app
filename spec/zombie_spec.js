@@ -14,4 +14,8 @@ xdescribe('the homepage', function(){
     var heading = browser.query('h1').textContent;
     expect(heading).toEqual('Rat Store');
   })
+
+  ots("includes a link",function(){
+    expect(browser.query('a').textContent).toEqual("More information...")
+  })
 });
