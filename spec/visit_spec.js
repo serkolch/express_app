@@ -4,7 +4,7 @@ var Zombie = require('zombie');
 // initialize the browser using the same port as the test application
 var browser = new Zombie({ site: 'http://localhost:3000' });
 
-describe('home page', function() {
+xdescribe('home page', function() {
   // load the contact page
   beforeEach(function(done) {
     browser.visit('/', done);
@@ -39,4 +39,5 @@ describe('home page', function() {
       expect(statusMessage).toEqual("Name can't be blank!");
     });
   });
+  xdescribe("Deleting a rat")
 });
