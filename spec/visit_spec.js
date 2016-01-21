@@ -39,5 +39,4 @@ describe('home page', function() {
       expect(statusMessage).toEqual("Name can't be blank!");
     });
   });
-  describe("Deleting a rat")
 });
