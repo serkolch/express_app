@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rats!</title>
+  <script src="/jquery/dist/jquery.js"></script>
+</head>
+<body>
+  <h1>Rats</h1>
+  <form method="POST" action="/rats">
+    <label for="rat-name">Name</label>
+    <input type="text" name="rat[name]" id="rat-name">
+    <input type="submit" value="Create">
+    <div id="form_status"></div>
+  </form>
+  <ul>
+  <% rats.forEach(function(rat){ %>
+    <li><%= rat.name %></li>
+  <% }) %>
+  </ul>
+  <script src="/javascripts/main.js"></script>
+</body>
+</html>
