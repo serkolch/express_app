@@ -2,6 +2,8 @@
 
 ![:image](http://4.bp.blogspot.com/-MyXQLlk8VGc/U80eH-eo-fI/AAAAAAAAAwI/8Zrx7uZFR4A/s1600/download.jpg)
 
+![:image](https://travis-ci.org/serkolch/express_app.svg?branch=master)
+
 First Fork and clone this repo to your terminal!
 
 Spend 5 minutes and answer the following questions.
