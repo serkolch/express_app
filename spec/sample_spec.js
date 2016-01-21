@@ -6,6 +6,6 @@ xdescribe("+", function(){
 
 xdescribe("-", function(){
   it("subtracts one number from another", function(){
-    expect(5 - 3).toEqual(1);
+    expect(5 - 3).toEqual(2);
   });
 });
